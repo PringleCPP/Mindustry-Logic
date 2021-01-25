@@ -1,0 +1,15 @@
+drawflush display1
+sensor switchToggle switch1 @enabled
+jump 9 notEqual switchToggle true
+draw clear 0 0 0 0 0 0
+draw clear 200 200 200 0 0 0
+
+sensor Copper nucleus1 @copper
+sensor Lead nucleus1 @lead
+sensor Metaglass nucleus1 @metaglass
+
+draw color 189 189 189 255 0 0
+draw image 40 40 @copper 64 0 0
+end
+draw clear 0 0 0 0 0 0
+end
